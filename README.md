@@ -1,5 +1,5 @@
 # Covid-19-Data-Exploration-in-SQL
-In this project, I extracted global Covid-19 data containing information on confirmed cases, deaths, and vaccinations and imported it to Microsoft SQL Server. 
+In this project, I extracted and imported global Covid-19 data containing information on confirmed cases, deaths, and vaccinations into Microsoft SQL Server. 
 
 Data Source:  https://ourworldindata.org/covid-deaths
 
