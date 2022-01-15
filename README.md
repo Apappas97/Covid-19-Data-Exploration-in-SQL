@@ -15,5 +15,12 @@ Date Extracted: July 4th, 2022
 * Converting Data Types
 
 ## Queries:
+### Display Total Cases, Total Deaths, Case-Fatality Rate for the United Sates 
+<img width= "800" height="350" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/US_Case_Fatality.png">
+</p>
 
-![](Images/Covid-19.sql%20-%20DESKTOP-SAV9GI5.master%20(DESKTOP-SAV9GI5_austi%20(63))_%20-%20Microsoft%20SQL%20Server%20Management%20Studio%201_15_2022%201_06_13%20PM.png)
+* In the US, there were 57M+ total cases and 830K+ total deaths as of January 4th, 2022. 
+* The likelyhood of death is 1.45% when referring to the Case-Fatality Rate shown below 
+
+<img src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/US_CaseFatality_Results.png">
+</p>
