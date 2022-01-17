@@ -1,4 +1,4 @@
-# Covid-19-Data-Exploration-in-SQL
+# Covid-19-Data Exploration in SQL
 ## You also view visulaizations of the data I queried and imported into my [Tableau Dashboard](https://public.tableau.com/app/profile/austin.pappas3389/viz/Covid-19DataAnalysis_16421990791220/GlobalStats "Tableau Dashboard") from this project
 
 In this project, I extracted and imported real-time global Covid-19 data containing information on confirmed cases, deaths, and vaccinations into Microsoft SQL Server. 
