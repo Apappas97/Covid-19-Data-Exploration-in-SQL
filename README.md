@@ -37,7 +37,7 @@ Date Extracted: July 4th, 2022
 <img src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/US_Infection_Results.png">
 </p>
 
-* As of Jan. 4th, 2022, 17.14% of Americans had been infected by Covid-19.
+* As of Jan. 4th, 2022, 17.14% of Americans have contracted Covid-19 at least once.
 
 ## Calculates the Percentage of Population Becoming Fully Vaccinated in the US Over Time
 <img width= "600" height="250" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/US_Vaccine_Rate.png">
@@ -45,7 +45,7 @@ Date Extracted: July 4th, 2022
 </p>
 
 * As shown, the vaccination rate for the US is increasing over time.
-* 204,983,073 people (or 61.57% of the US populations) are confirmed to be fully vaccinated.
+* 204,983,073 people (or 61.57% of the US population) is confirmed to be fully vaccinated.
 
 # Queries: All Countries
 ## Top 10 Countries Ranked by their Case-Fatality Rate
