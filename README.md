@@ -30,14 +30,14 @@ Date Extracted: July 4th, 2022
 </p>
 
 * Shows the likelihood of death from Covid-19 in the US which is about 1.45% as of Jan. 4th, 2022.
-* There was a cumulative total of 57M+ confirmed total cases and 830K+ total deaths as well.
+* There was a cumulative total of 57M+ confirmed cases and 830K+ deaths as well.
 
 ## Calculates the Percentage of Population in the US that has been Infected with Covid Over Time
 <img width= "550" height="250" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/US_Infection_Rate.png">
 <img src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/US_Infection_Results.png">
 </p>
 
-* As of Jan. 4th, 2022, 17.14% of Americans had been infected. 
+* As of Jan. 4th, 2022, 17.14% of Americans had been infected by Covid-19.
 
 ## Calculates the Percentage of Population Becoming Fully Vaccinated in the US Over Time
 <img width= "600" height="250" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/US_Vaccine_Rate.png">
@@ -45,15 +45,16 @@ Date Extracted: July 4th, 2022
 </p>
 
 * As shown, the vaccination rate for the US is increasing over time.
-* 204,983,073 people are confirmed to be fully vaccinated, or about 61.57% as of Jan. 4th, 2022. 
-# Queries: All Countries:
+* 204,983,073 people (or 61.57% of the US populations) are confirmed to be fully vaccinated.
+
+# Queries: All Countries
 ## Top 10 Countries Ranked by their Case-Fatality Rate
 <img width= "800" height="350" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/Countries_Top_CaseFatality.png">
 </p>
 <img src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/Countries_Top_CaseFatality_Results.png">
 </p>
 
-* Yemen is the number one country with the highest Covid-19 case-fatality ratio being 19.56%.
+* The country with the highest case-fatality rate being 19.56% is Yemen. 
 
 ## Top 10 Countries with the Highest Infection Rates
 <img width= "650" height="300" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/Countries_Infected.png">
@@ -61,7 +62,7 @@ Date Extracted: July 4th, 2022
 <img src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/Countries_Infected_Results.png">
 </p>
 
-* As shown, Andorra is the highest amongst other countries for 32.06% of their total population contracting Covid-19. 
+* As shown, Andorra has the highest percent of population infected in their country being 32.06%. 
 
 ## Top 10 Countries with the Highest Vaccination Rates
 <img width= "675" height="300" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/Countries_VaccineRate.png">
@@ -77,42 +78,42 @@ Date Extracted: July 4th, 2022
 <img src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/Countries_HighestDeaths_Results.png">
 </p>
 
-* The United States has more confirmed deaths from Covid than any other country, however, it should be noted that the size of the US population is far greater than man countries. 
-  * Thus, the US has far more cases than deaths; giving them a low case to fatality ratio when compared to other countries. 
+* The United States has more confirmed deaths from Covid than any other country, however, it should be noted that the size of the US population is far greater than most countries. 
+  * Thus, the US has large gap between confirmed cases and deaths, which is why they have a low case-fatality ratio when compared to other countries. 
 
 # Queries: Continents 
 ## Global Cases, Deaths, and Case-Fatality Rate
 <img width= "700" height="300" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/Global.png">
 </p>
 
-* Across the globe there has been over 294M+ total cases, 5.4M+ total deaths, and the case-fatality rate is 1.84% for the entire world. 
+* Across the globe there has been over 294M+ total cases, 5.4M+ total deaths, and the total case-fatality rate for the world is 1.84%.  
 
 ## Continents Ranked by their Case-Fatality Rate
 <img width= "750" height="475" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/Continets_CaseFatality.png">
 </p>
 
-* South America ranks the highest given that their cast-fatality rate is 2.98%. 
-* Despite the fact that the US has more deaths than any other country in the world, North America as a whole is ranked in the middle between other continents for its case-fatality rate being 1.82%.
+* South America ranks the highest given that their case-fatality rate is 2.98%. 
+* Despite the fact that the US has more deaths than any other country in the world, North America is ranked in the middle for having a case-fatality rate of 1.82%.
 
 ## Continents Ranked by their Infection Rates
 <img width= "750" height="475" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/Continents_Infection.png">
 </p>
 
 * As far as infection rates go, North America is just under Europe for having the highest percentage of their population contracting the virus (about 12.27%). 
-  * North America is at 11.31%. 
+  * North America is 11.31%. 
 
 ## Continents Ranked by their Vaccination Rates
 <img width= "750" height="475" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/Continents_Vaccine_Rates.png">
 </p>
 
-* With South America being 64.02% fully vaccinated, covid vaccinations rates are surprisingly high given that vaccines only started to get approved early of 2021.
-* Some countries approved the usage of covid vaccines earlier than others, and that may also be a reason for why some continents are ranked higher than others for being fully vaccinated.
+* With South America's population being 64.02% fully vaccinated, covid vaccinations rates are surprisingly high given that vaccines only started to get approved early of 2021.
+* Some countries approved the usage of covid vaccines earlier than others, and that may also be a reason for why some continents are ranked higher than others.
 
 ## Continents Ranked by the Total Confirmed Number of Deaths
 <img width= "750" height="475" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/Continents_DeathCount.png">
 </p>
 
-* Once again, Europe ranks the highest in terms of total deaths. It is recorded that they have had 1,540,597 confirmed deaths from Covid as of Jan. 4th, 2022, from when I extracted this data. 
+* Once again, Europe ranks the highest in terms of total deaths. It is recorded that they have had 1,540,597 confirmed deaths from Covid as of Jan. 4th, 2022. 
 
 ## Calculate the Rolling Number of People Becoming Fully Vaccinated
 <img width= "750" height="475" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/RollingNumber.png">
@@ -121,5 +122,4 @@ Date Extracted: July 4th, 2022
 </p>
 
 * I used a CTE to show the rolling number and percentage of individuals becoming vaccinated in their country. 
-* From this example, you can see that new vaccinations started occurring on Dec. 14th, 2020, in the United States. 
-  *  It is shown that the number and percentages roll over into the next period when more vaccinations occur.
+* From this example, you can see that new vaccinations started rolling out on Dec. 14th, 2020, in the United States. 
