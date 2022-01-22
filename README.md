@@ -26,6 +26,23 @@ Date Extracted: July 4th, 2022
 ## Displays Population, Total Cases, Total Deaths, and Case-Fatality Rate for the US Over Time
 <img width= "600" height="300" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/US_Case_Fatality.png">
 </p>
+
+``` TSQL
+SELECT 
+	location,
+	date,
+	population,
+	total_cases, 
+	total_deaths, 
+	FORMAT((total_deaths / total_cases), 'P') AS Case_Fatality_Rate
+FROM 
+	[Portfolio Project]..CasesAndDeaths
+WHERE 
+	location like '%states%'
+ORDER BY 
+	location, 
+	date DESC;
+ ```
 <img src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/US_CaseFatality_Results.png">
 </p>
 
@@ -123,3 +140,10 @@ Date Extracted: July 4th, 2022
 
 * I used a CTE to show the rolling number and percentage of individuals becoming vaccinated in their country. 
 * From this example, you can see that new vaccinations started rolling out on Dec. 14th, 2020, in the United States. 
+
+``` TSQL
+SELECT *
+FROM [Portfolio Project]..CasesAndDeaths
+WHERE continent IS NOT NULL
+ORDER BY continent, location;
+```
