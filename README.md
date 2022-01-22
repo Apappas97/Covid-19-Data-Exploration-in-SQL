@@ -24,8 +24,6 @@ Date Extracted: July 4th, 2022
 
 # Queries: United States
 ## Displays Population, Total Cases, Total Deaths, and Case-Fatality Rate for the US Over Time
-<img width= "600" height="300" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/US_Case_Fatality.png">
-</p>
 
 ``` TSQL
 SELECT 
@@ -50,7 +48,6 @@ ORDER BY
 * There was a cumulative total of 57M+ confirmed cases and 830K+ deaths as well.
 
 ## Calculates the Percentage of Population in the US that has been Infected with Covid Over Time
-<img width= "550" height="250" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/US_Infection_Rate.png">
 
 ``` TSQL
 SELECT 
@@ -72,7 +69,6 @@ ORDER BY
 * As of Jan. 4th, 2022, 17.14% of Americans have contracted Covid-19 at least once.
 
 ## Calculates the Percentage of Population Becoming Fully Vaccinated in the US Over Time
-<img width= "600" height="250" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/US_Vaccine_Rate.png">
 
 ```TSQL
 SELECT 
@@ -96,8 +92,6 @@ ORDER BY
 
 # Queries: All Countries
 ## Top 10 Countries Ranked by their Case-Fatality Rate
-<img width= "800" height="350" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/Countries_Top_CaseFatality.png">
-</p>
 
 ```TSQL
 SELECT 
@@ -122,8 +116,6 @@ ORDER BY
 * The country with the highest case-fatality rate being 19.56% is Yemen. 
 
 ## Top 10 Countries with the Highest Infection Rates
-<img width= "650" height="300" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/Countries_Infected.png">
-</p>
 
 ```TSQL
 SELECT 
@@ -147,8 +139,6 @@ ORDER BY
 * As shown, Andorra has the highest percent of population infected in their country being 32.06%. 
 
 ## Top 10 Countries with the Highest Vaccination Rates
-<img width= "675" height="300" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/Countries_VaccineRate.png">
-</p>
 
 ```TSQL
 SELECT 
@@ -171,8 +161,6 @@ ORDER BY
 * The UAE succeeds where almost everyone in their country is confirmed to be fully vaccinated from Covid-19.
 
 ## Top 10 Countries with the Highest Confirmed Deaths
-<img width= "445" height="250" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/Countries_Highest_Deaths.png">
-</p>
 
 ```TSQL
 SELECT
@@ -209,7 +197,7 @@ ORDER BY
 	total_cases,
 	total_deaths;
 ```
-<img width= "700" height="300" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/Global.png">
+<img src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/Global_Cases.png">
 </p>
 
 * Across the globe there has been over 294M+ total cases, 5.4M+ total deaths, and the total case-fatality rate for the world is 1.84%.  
@@ -235,7 +223,7 @@ WHERE
 ORDER BY 
 	Case_Fatality_Rate DESC;
 ```
-<img width= "750" height="475" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/Continets_CaseFatality.png">
+<img src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/ContinentFatality.png">
 </p>
 
 * South America ranks the highest given that their case-fatality rate is 2.98%. 
@@ -261,7 +249,7 @@ GROUP BY
 ORDER BY 
 	'Infection_Rate%' DESC;
 ```
-<img width= "750" height="475" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/Continents_Infection.png">
+<img src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/ContinentInfection.png">
 </p>
 
 * As far as infection rates go, North America is just under Europe for having the highest percentage of their population contracting the virus (about 12.27%). 
@@ -287,7 +275,7 @@ GROUP BY
 ORDER BY
 	'Vaccination_Rate%' DESC;
 ```
-<img width= "750" height="475" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/Continents_Vaccine_Rates.png">
+<img src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/ContinentVaccine.png">
 </p>
 
 * With South America's population being 64.02% fully vaccinated, covid vaccinations rates are surprisingly high given that vaccines only started to get approved early of 2021.
@@ -310,14 +298,12 @@ GROUP BY
 ORDER BY 
 	TotalDeathCount DESC;
 ```
-<img width= "750" height="475" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/Continents_DeathCount.png">
+<img src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/ContinentDeaths.png">
 </p>
 
 * Once again, Europe ranks the highest in terms of total deaths. It is recorded that they have had 1,540,597 confirmed deaths from Covid as of Jan. 4th, 2022. 
 
 ## Calculate the Rolling Number of People Becoming Fully Vaccinated
-<img width= "750" height="475" src="https://github.com/Apappas97/Covid-19-Data-Exploration-in-SQL/blob/main/Images/RollingNumber.png">
-</p>
 
 ```TSQL
 WITH Population_Vaccinated (continent, location, date, population, new_vaccinations, Rolling_Number_Vaccinations)
