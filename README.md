@@ -22,9 +22,8 @@ Date Extracted: July 4th, 2022
 * Total Cases vs Total Population - Infection Rate
 * Total People Fully Vaccinated vs Total Population - Vaccination Rate 
 
-# Queries: United States
+# Queries:
 ## Displays Population, Total Cases, Total Deaths, and Case-Fatality Rate for the US Over Time
-
 ``` TSQL
 SELECT 
 	location,
@@ -46,9 +45,7 @@ ORDER BY
 
 * Shows the likelihood of death from Covid-19 in the US which is about 1.45% as of Jan. 4th, 2022.
 * There was a cumulative total of 57M+ confirmed cases and 830K+ deaths as well.
-
 ## Calculates the Percentage of Population in the US that has been Infected with Covid Over Time
-
 ``` TSQL
 SELECT 
 	location, 
@@ -67,9 +64,7 @@ ORDER BY
 </p>
 
 * As of Jan. 4th, 2022, 17.14% of Americans have contracted Covid-19 at least once.
-
 ## Calculates the Percentage of Population Becoming Fully Vaccinated in the US Over Time
-
 ```TSQL
 SELECT 
 	location, 
@@ -89,10 +84,7 @@ ORDER BY
 
 * As shown, the vaccination rate for the US is increasing over time.
 * 204,983,073 people (or 61.57% of the US population) is confirmed to be fully vaccinated.
-
-# Queries: All Countries
 ## Top 10 Countries Ranked by their Case-Fatality Rate
-
 ```TSQL
 SELECT 
 	Top 10 location, 
@@ -114,9 +106,7 @@ ORDER BY
 </p>
 
 * The country with the highest case-fatality rate being 19.56% is Yemen. 
-
 ## Top 10 Countries with the Highest Infection Rates
-
 ```TSQL
 SELECT 
 	TOP 10 location,
@@ -137,9 +127,7 @@ ORDER BY
 </p>
 
 * As shown, Andorra has the highest percent of population infected in their country being 32.06%. 
-
 ## Top 10 Countries with the Highest Vaccination Rates
-
 ```TSQL
 SELECT 
 	TOP 10 location,
@@ -159,9 +147,7 @@ ORDER BY
 </p>
 
 * The UAE succeeds where almost everyone in their country is confirmed to be fully vaccinated from Covid-19.
-
 ## Top 10 Countries with the Highest Confirmed Deaths
-
 ```TSQL
 SELECT
 	TOP 10 location,
@@ -180,10 +166,7 @@ ORDER BY
 
 * The United States has more confirmed deaths from Covid than any other country, however, it should be noted that the size of the US population is far greater than most countries. 
   * Thus, the US has large gap between confirmed cases and deaths, which is why they have a low case-fatality ratio when compared to other countries. 
-
-# Queries: Continents 
 ## Global Cases, Deaths, and Case-Fatality Rate
-
 ```TSQL
 SELECT 
 	SUM(new_cases) AS total_cases, 
@@ -201,9 +184,7 @@ ORDER BY
 </p>
 
 * Across the globe there has been over 294M+ total cases, 5.4M+ total deaths, and the total case-fatality rate for the world is 1.84%.  
-
 ## Continents Ranked by their Case-Fatality Rate
-
 ```TSQL
 SELECT 
 	location,
@@ -228,9 +209,7 @@ ORDER BY
 
 * South America ranks the highest given that their case-fatality rate is 2.98%. 
 * Despite the fact that the US has more deaths than any other country in the world, North America is ranked in the middle for having a case-fatality rate of 1.82%.
-
 ## Continents Ranked by their Infection Rates
-
 ```TSQL
 SELECT 
 	location,
@@ -254,9 +233,7 @@ ORDER BY
 
 * As far as infection rates go, North America is just under Europe for having the highest percentage of their population contracting the virus (about 12.27%). 
   * North America is 11.31%. 
-
 ## Continents Ranked by their Vaccination Rates
-
 ```TSQL
 Select 
 	location,
@@ -280,9 +257,7 @@ ORDER BY
 
 * With South America's population being 64.02% fully vaccinated, covid vaccinations rates are surprisingly high given that vaccines only started to get approved early of 2021.
 * Some countries approved the usage of covid vaccines earlier than others, and that may also be a reason for why some continents are ranked higher than others.
-
 ## Continents Ranked by the Total Confirmed Number of Deaths
-
 ```TSQL
 SELECT 
 	location,
@@ -302,9 +277,7 @@ ORDER BY
 </p>
 
 * Once again, Europe ranks the highest in terms of total deaths. It is recorded that they have had 1,540,597 confirmed deaths from Covid as of Jan. 4th, 2022. 
-
 ## Calculate the Rolling Number of People Becoming Fully Vaccinated
-
 ```TSQL
 WITH Population_Vaccinated (continent, location, date, population, new_vaccinations, Rolling_Number_Vaccinations)
 AS
