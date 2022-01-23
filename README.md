@@ -1,5 +1,5 @@
 # Data Exploration in SQL | COVID-19 Dataset
-## See visulaizations of the data I queried and imported into my [Tableau Dashboard](https://public.tableau.com/app/profile/austin.pappas3389/viz/Covid-19DataAnalysis_16421990791220/GlobalStats "Tableau Public") from this project as well!
+## Feel free to view the [tableau dashboard](https://public.tableau.com/app/profile/austin.pappas3389/viz/Covid-19DataAnalysis_16421990791220/GlobalStats "Tableau Public") I made which shows a visual representation of the queries performed in this project 
 
 In this project, I extracted and imported real-time global COVID-19 data into Microsoft SQL Server. Performing queries and calculations, I was able to retrieve the infection rate, vaccination rate, and case-fatality rate for all countries and continents around the world. 
 
